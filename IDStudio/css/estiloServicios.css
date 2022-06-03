@@ -1,0 +1,99 @@
+.container-servicios{
+  max-width: 1280px;
+  margin: 0 auto;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-container-cortes{
+  display: grid;
+  grid-template-columns: auto auto ;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.grid-container-tratamientos{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /*background-color: #2196F3;*/
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.grid-container-img{
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+}
+
+.grid-container-size{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.grid-item{
+  display: flex;
+   /*background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);*/
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-img{
+  height: 200px;
+  width: 100%;
+}
+
+.balayage-img{
+  height: 300px;
+  width: 300px;
+}
+/* Add some padding inside the card container */
+.container-card {
+  display: inline-block;
+  text-align: center;
+  font-size: large;
+  padding: 2px 16px;
+}
+
+.grid-item,.block, h1, h2, h3, h4,h5, h6, p{
+  font-family: 'Raleway',sans-serif;
+}
+.block, p{
+  font-weight: 300;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 500;
+}
+.desc-servicios{
+  display: block;
+  position: relative;
+  margin-top: 10%;
+}
+
+.block{
+  display: block;
+
+}

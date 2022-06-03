@@ -1,0 +1,48 @@
+    .Mision{
+        background-color: #e8d2c5;
+        font-family: 'Raleway', sans-serif;
+        padding: 100px;
+        max-width: 1280px;
+        margin: 0 auto;
+        /*display: flex;*/
+        text-align: center;
+    }
+
+    .maps{
+        background-color: #eae5c7;
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 500px;
+        max-width: 1280px;
+        padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto
+    }
+    .text-center{
+        text-align: center;
+    }
+    .filas{
+        margin-right:-15px;margin-left:-15px;
+    }
+    .doscolumnas{
+        width: 50%;
+        position:relative;min-height:1px;padding-right:10px;padding-left:10px;
+        float:left;
+    }
+    .doscolumnas h3 p a{
+        font-family: 'Raleway', sans-serif;
+        color: black;
+    }
+    .doscolumnas h1 p{
+        font-family: 'Raleway', sans-serif;
+        color: black;
+    }
+    .opiniones{
+        font-family: 'Raleway', sans-serif;
+        padding-bottom: 100px;
+        max-width: 1280px;
+        /*margin: 0 auto;*/
+        padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto
+    }
+    .cincocolumnas{
+        width: 20%;
+        position:relative;min-height:1px;padding-right:15px;padding-left:15px;
+        float:left;
+    }
