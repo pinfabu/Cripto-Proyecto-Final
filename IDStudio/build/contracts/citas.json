@@ -1,0 +1,823 @@
+{
+  "contractName": "Citas",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "id",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xaf640d0f"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "agenda",
+      "outputs": [
+        {
+          "name": "contenido",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function",
+      "signature": "0xef8c6809"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "contenido",
+          "type": "string"
+        }
+      ],
+      "name": "crearCita",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "signature": "0xe5384c42"
+    }
+  ],
+  "bytecode": "0x60806040526000805534801561001457600080fd5b5061037d806100246000396000f3fe6080604052600436106100565763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663af640d0f811461005b578063e5384c4214610082578063ef8c680914610137575b600080fd5b34801561006757600080fd5b506100706101d6565b60408051918252519081900360200190f35b34801561008e57600080fd5b50610135600480360360208110156100a557600080fd5b8101906020810181356401000000008111156100c057600080fd5b8201836020820111156100d257600080fd5b803590602001918460018302840111640100000000831117156100f457600080fd5b91908080601f0160208091040260200160405190810160405280939291908181526020018383808284376000920191909152509295506101dc945050505050565b005b34801561014357600080fd5b506101616004803603602081101561015a57600080fd5b503561021a565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561019b578181015183820152602001610183565b50505050905090810190601f1680156101c85780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60005481565b6000805460019081018083556040805160208181018352868252928552928252909220815180519293919261021492849201906102b6565b50505050565b60016020818152600092835260409283902080548451600294821615610100026000190190911693909304601f81018390048302840183019094528383529283918301828280156102ac5780601f10610281576101008083540402835291602001916102ac565b820191906000526020600020905b81548152906001019060200180831161028f57829003601f168201915b5050505050905081565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102f757805160ff1916838001178555610324565b82800160010185558215610324579182015b82811115610324578251825591602001919060010190610309565b50610330929150610334565b5090565b61034e91905b80821115610330576000815560010161033a565b9056fea165627a7a72305820263fd16768883163b21b3454216ca861137d79779e7d5aa71e4ffc725d0c40160029",
+  "deployedBytecode": "0x6080604052600436106100565763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663af640d0f811461005b578063e5384c4214610082578063ef8c680914610137575b600080fd5b34801561006757600080fd5b506100706101d6565b60408051918252519081900360200190f35b34801561008e57600080fd5b50610135600480360360208110156100a557600080fd5b8101906020810181356401000000008111156100c057600080fd5b8201836020820111156100d257600080fd5b803590602001918460018302840111640100000000831117156100f457600080fd5b91908080601f0160208091040260200160405190810160405280939291908181526020018383808284376000920191909152509295506101dc945050505050565b005b34801561014357600080fd5b506101616004803603602081101561015a57600080fd5b503561021a565b6040805160208082528351818301528351919283929083019185019080838360005b8381101561019b578181015183820152602001610183565b50505050905090810190601f1680156101c85780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b60005481565b6000805460019081018083556040805160208181018352868252928552928252909220815180519293919261021492849201906102b6565b50505050565b60016020818152600092835260409283902080548451600294821615610100026000190190911693909304601f81018390048302840183019094528383529283918301828280156102ac5780601f10610281576101008083540402835291602001916102ac565b820191906000526020600020905b81548152906001019060200180831161028f57829003601f168201915b5050505050905081565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102f757805160ff1916838001178555610324565b82800160010185558215610324579182015b82811115610324578251825591602001919060010190610309565b50610330929150610334565b5090565b61034e91905b80821115610330576000815560010161033a565b9056fea165627a7a72305820263fd16768883163b21b3454216ca861137d79779e7d5aa71e4ffc725d0c40160029",
+  "sourceMap": "27:292:1:-;;;65:1;50:16;;27:292;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:292:1;;;;;;;",
+  "deployedSourceMap": "27:292:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;50:16;;8:9:-1;5:2;;;30:1;27;20:12;5:2;50:16:1;;;;;;;;;;;;;;;;;;;;191:125;;8:9:-1;5:2;;;30:1;27;20:12;5:2;191:125:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;191:125:1;;;;;;;;21:11:-1;5:28;;2:2;;;46:1;43;36:12;2:2;191:125:1;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;191:125:1;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;191:125:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;81:16;;74:27;;;;-1:-1;191:125:1;;-1:-1:-1;191:125:1;;-1:-1:-1;;;;;191:125:1;;;140:42;;8:9:-1;5:2;;;30:1;27;20:12;5:2;140:42:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;-1:-1;140:42:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:100:-1;33:3;30:1;27:10;8:100;;;90:11;;;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;140:42:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;50:16;;;;:::o;191:125::-;258:2;:5;;;;;;;;;286:22;;;;;;;;;;;;274:10;;;;;;;;;:34;;;;286:22;;274:10;;:34;;:10;;:34;;;:::i;:::-;-1:-1:-1;;;;191:125:1:o;140:42::-;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;140:42:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;27:292::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;27:292:1;;;-1:-1:-1;27:292:1;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract Citas\r\n{\r\n    uint public id=0;\r\n\r\n    struct Appointment\r\n    {\r\n        string contenido;\r\n    }\r\n    mapping(uint => Appointment) public agenda;\r\n\r\n    function crearCita(string memory contenido) public\r\n    {\r\n        id ++;\r\n        agenda[id]= Appointment(contenido);\r\n    }\r\n}",
+  "sourcePath": "C:/Users/ville/Desktop/Cripto-Proyecto-Final/IDStudio/contracts/citas.sol",
+  "ast": {
+    "absolutePath": "/C/Users/ville/Desktop/Cripto-Proyecto-Final/IDStudio/contracts/citas.sol",
+    "exportedSymbols": {
+      "Citas": [
+        62
+      ]
+    },
+    "id": 63,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 62,
+        "linearizedBaseContracts": [
+          62
+        ],
+        "name": "Citas",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "id",
+            "nodeType": "VariableDeclaration",
+            "scope": 62,
+            "src": "50:16:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "50:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "65:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "Citas.Appointment",
+            "id": 40,
+            "members": [
+              {
+                "constant": false,
+                "id": 39,
+                "name": "contenido",
+                "nodeType": "VariableDeclaration",
+                "scope": 40,
+                "src": "110:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 38,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "110:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Appointment",
+            "nodeType": "StructDefinition",
+            "scope": 62,
+            "src": "75:59:1",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 44,
+            "name": "agenda",
+            "nodeType": "VariableDeclaration",
+            "scope": 62,
+            "src": "140:42:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Appointment_$40_storage_$",
+              "typeString": "mapping(uint256 => struct Citas.Appointment)"
+            },
+            "typeName": {
+              "id": 43,
+              "keyType": {
+                "id": 41,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "148:4:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "140:28:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Appointment_$40_storage_$",
+                "typeString": "mapping(uint256 => struct Citas.Appointment)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 42,
+                "name": "Appointment",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 40,
+                "src": "156:11:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Appointment_$40_storage_ptr",
+                  "typeString": "struct Citas.Appointment"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 60,
+              "nodeType": "Block",
+              "src": "247:69:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 50,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "UnaryOperation",
+                    "operator": "++",
+                    "prefix": false,
+                    "src": "258:5:1",
+                    "subExpression": {
+                      "argumentTypes": null,
+                      "id": 49,
+                      "name": "id",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 37,
+                      "src": "258:2:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 51,
+                  "nodeType": "ExpressionStatement",
+                  "src": "258:5:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 58,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 52,
+                        "name": "agenda",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 44,
+                        "src": "274:6:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Appointment_$40_storage_$",
+                          "typeString": "mapping(uint256 => struct Citas.Appointment storage ref)"
+                        }
+                      },
+                      "id": 54,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 53,
+                        "name": "id",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 37,
+                        "src": "281:2:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "274:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Appointment_$40_storage",
+                        "typeString": "struct Citas.Appointment storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 56,
+                          "name": "contenido",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 46,
+                          "src": "298:9:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        ],
+                        "id": 55,
+                        "name": "Appointment",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 40,
+                        "src": "286:11:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Appointment_$40_storage_ptr_$",
+                          "typeString": "type(struct Citas.Appointment storage pointer)"
+                        }
+                      },
+                      "id": 57,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "286:22:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Appointment_$40_memory",
+                        "typeString": "struct Citas.Appointment memory"
+                      }
+                    },
+                    "src": "274:34:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Appointment_$40_storage",
+                      "typeString": "struct Citas.Appointment storage ref"
+                    }
+                  },
+                  "id": 59,
+                  "nodeType": "ExpressionStatement",
+                  "src": "274:34:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 61,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "crearCita",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 47,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 46,
+                  "name": "contenido",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 61,
+                  "src": "210:23:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 45,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "210:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "209:25:1"
+            },
+            "returnParameters": {
+              "id": 48,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "247:0:1"
+            },
+            "scope": 62,
+            "src": "191:125:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 63,
+        "src": "27:292:1"
+      }
+    ],
+    "src": "0:319:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/ville/Desktop/Cripto-Proyecto-Final/IDStudio/contracts/citas.sol",
+    "exportedSymbols": {
+      "Citas": [
+        62
+      ]
+    },
+    "id": 63,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 62,
+        "linearizedBaseContracts": [
+          62
+        ],
+        "name": "Citas",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 37,
+            "name": "id",
+            "nodeType": "VariableDeclaration",
+            "scope": 62,
+            "src": "50:16:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 35,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "50:4:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "hexValue": "30",
+              "id": 36,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "65:1:1",
+              "subdenomination": null,
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "Citas.Appointment",
+            "id": 40,
+            "members": [
+              {
+                "constant": false,
+                "id": 39,
+                "name": "contenido",
+                "nodeType": "VariableDeclaration",
+                "scope": 40,
+                "src": "110:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 38,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "110:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Appointment",
+            "nodeType": "StructDefinition",
+            "scope": 62,
+            "src": "75:59:1",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 44,
+            "name": "agenda",
+            "nodeType": "VariableDeclaration",
+            "scope": 62,
+            "src": "140:42:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Appointment_$40_storage_$",
+              "typeString": "mapping(uint256 => struct Citas.Appointment)"
+            },
+            "typeName": {
+              "id": 43,
+              "keyType": {
+                "id": 41,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "148:4:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "140:28:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Appointment_$40_storage_$",
+                "typeString": "mapping(uint256 => struct Citas.Appointment)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 42,
+                "name": "Appointment",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 40,
+                "src": "156:11:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Appointment_$40_storage_ptr",
+                  "typeString": "struct Citas.Appointment"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 60,
+              "nodeType": "Block",
+              "src": "247:69:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 50,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "UnaryOperation",
+                    "operator": "++",
+                    "prefix": false,
+                    "src": "258:5:1",
+                    "subExpression": {
+                      "argumentTypes": null,
+                      "id": 49,
+                      "name": "id",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 37,
+                      "src": "258:2:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 51,
+                  "nodeType": "ExpressionStatement",
+                  "src": "258:5:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 58,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 52,
+                        "name": "agenda",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 44,
+                        "src": "274:6:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Appointment_$40_storage_$",
+                          "typeString": "mapping(uint256 => struct Citas.Appointment storage ref)"
+                        }
+                      },
+                      "id": 54,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "id": 53,
+                        "name": "id",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 37,
+                        "src": "281:2:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "274:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Appointment_$40_storage",
+                        "typeString": "struct Citas.Appointment storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "id": 56,
+                          "name": "contenido",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 46,
+                          "src": "298:9:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_string_memory_ptr",
+                            "typeString": "string memory"
+                          }
+                        ],
+                        "id": 55,
+                        "name": "Appointment",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 40,
+                        "src": "286:11:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Appointment_$40_storage_ptr_$",
+                          "typeString": "type(struct Citas.Appointment storage pointer)"
+                        }
+                      },
+                      "id": 57,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "286:22:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Appointment_$40_memory",
+                        "typeString": "struct Citas.Appointment memory"
+                      }
+                    },
+                    "src": "274:34:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Appointment_$40_storage",
+                      "typeString": "struct Citas.Appointment storage ref"
+                    }
+                  },
+                  "id": 59,
+                  "nodeType": "ExpressionStatement",
+                  "src": "274:34:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 61,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "crearCita",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 47,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 46,
+                  "name": "contenido",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 61,
+                  "src": "210:23:1",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 45,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "210:6:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "209:25:1"
+            },
+            "returnParameters": {
+              "id": 48,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "247:0:1"
+            },
+            "scope": 62,
+            "src": "191:125:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 63,
+        "src": "27:292:1"
+      }
+    ],
+    "src": "0:319:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x19BA79cDEd7f36029Ee05C65D5e7635BbD323c20",
+      "transactionHash": "0xa75b9c42a39d7c4d7a4a775fea6f803630eefe13e5a3bbc1b84ed379d5206001"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2022-06-06T23:24:09.048Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
