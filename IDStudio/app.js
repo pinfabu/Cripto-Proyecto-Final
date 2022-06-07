@@ -7,6 +7,7 @@ App = {
       await App.loadAccount()
       await App.loadContract()
       await App.render()
+      
     },
   
     // https://medium.com/metamask/https-medium-com-metamask-breaking-change-injecting-web3-7722797916a8
@@ -80,7 +81,7 @@ App = {
       App.setLoading(true)
       const content = $('#Agenda').val()
       console.log(content)
-      await App.Cita.crearCita(content)
+      await App.Citas.crearCita(content)
       window.location.reload()
     },
   
@@ -98,8 +99,8 @@ App = {
     }
   }
   
-  /*$(() => {
+  $(() => {
     $(window).load(() => {
       App.load()
     })
-  })*/
+  })
