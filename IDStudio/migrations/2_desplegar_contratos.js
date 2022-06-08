@@ -1,5 +1,5 @@
-var CitasList = artifacts.require("./citas.sol");
+var A = artifacts.require("../contracts/Agenda.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(CitasList);
+  deployer.deploy(A);
 };

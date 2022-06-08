@@ -48,17 +48,21 @@
     <br>
     <br>
     <div id="contenedor-citas" class="contenedor-citas">
-      <span></span>
-      <span></span>
-      <span></span>
-      <h1>
+      <div></div>
+          <!-- Circulos que indican la etapa -->
+          <div style="text-align:center;margin-top:40px;">
+              
+      
+      <h1 style="font-family:Raleway;text-align:center;font-weight: bold;">
         Ingrese su cita
       </h1>
+      <br>
       <form onsubmit="App.crearCita()">
-        <input id="Agenda" type="text" placeholder="Ingrese su cita" required>
+        <input id="Agenda" type="text" placeholder="Ingrese su cita" required  style="border-radius:15px;border-color:transparent;font-family:Raleway;font-weight: bold;padding:8px;">
         <input type="submit" hidden="">
       </form>
         <!-- Role aquí-->
+    </div>
     
     <footer>
           <div class="container-footer">
@@ -71,11 +75,17 @@
           </div>
     </footer>
     <!-- Scripts aquí-->
-    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="vendor/web3/dist/web3.js"></script>
     <script src="vendor/truffle-contract/dist/truffle-contract.js"></script>
-    <script src="/app.js"></script>
+    <script src="/app.js" type="module"></script>-->
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="vendor/web3/dist/web3.min.js"></script>
+    <script src="vendor/@truffle/contract/dist/truffle-contract.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>

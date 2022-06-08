@@ -17,10 +17,13 @@
         "chai-bignumber": "^2.0.2",
         "lite-server": "^2.6.1",
         "nodemon": "^1.17.3",
-        "truffle": "5.0.2",
-        "truffle-contract": "3.0.6"
+        "truffle":"^5.5.17",
+        "@truffle-contract": "^4.5.13",
+        "web3":"1.5.3"
     },
     "dependencies": {
+        "@metamask/onboarding": "^1.0.1",
+        "@truffle/contract": "^4.5.13",
         "web3": "^1.7.3"
     }
 }
